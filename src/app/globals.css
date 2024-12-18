@@ -30,3 +30,21 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: background 1.5s ease;
 }
+
+.slides {
+  /* animation: slide-animation 1s infinite; */
+  /* animation-delay: 5s; */
+  transition: transform 1s ease-in-out;
+}
+
+/* @keyframes slide-animation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+} */

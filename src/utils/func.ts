@@ -1,4 +1,4 @@
-import type { Node } from 'src/types/type';
+import type { Node, TemperatureUnit } from 'src/types/type';
 
 export const findNodePath = (
   nodes: Node[],
@@ -31,3 +31,6 @@ export const nameExistsInTree = (nodes: Node[], name: string): boolean =>
     }
     return false;
   });
+
+export const formatTemperature = (temp: number, unit: TemperatureUnit) =>
+  (unit === 'F' ? (temp * 9) / 5 + 32 : temp).toFixed(1);

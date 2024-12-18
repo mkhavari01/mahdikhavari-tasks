@@ -17,7 +17,7 @@ const chakraPetch = Chakra_Petch({
 });
 
 export const metadata: Metadata = {
-  title: 'Shopino Task',
+  title: 'Mahdi Khavari Tasks',
   description: 'developed by Mahdi Khavari',
 };
 
